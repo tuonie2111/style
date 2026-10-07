@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dedede;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.description {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ======================
+   MOBILE
+   1 ô / hàng
+   ====================== */
+
+.color-box {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.color {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.color-box p {
+    font-size: 22px;
+}
+
+
+/* MÀU */
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.white {
+    background-color: white;
+}
+
+
+/* ======================
+   TABLET >= 772px
+   2 ô / hàng
+   ====================== */
+
+@media screen and (min-width: 772px) {
+
+    .color-box {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    .color {
+        max-height: 30vh;
+    }
+
+}
+
+
+/* ======================
+   LARGE >= 998px
+   3 ô / hàng
+   ====================== */
+
+@media screen and (min-width: 998px) {
+
+    .color-box {
+        width: 30%;
+    }
+
+}
